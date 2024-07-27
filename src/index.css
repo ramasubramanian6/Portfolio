@@ -1,0 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Ga+Maamli&family=Pacifico&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+                                     
+
+header ul li {
+    @apply pr-4;
+}
+
+#root header {
+    @apply bg-gradient-to-r from-purple-700 to-blue-600 w-full h-14 ;
+}
+
+.menu{
+    @apply fixed top-24 left-60 w-2/3 h-auto  text-start bg-slate-600 rounded-bl-lg  ;
+}
+
+#root > header > div > nav.block.md\:hidden.menu > ul >li
+{
+    @apply py-2 pl-6 tracking-wide border-b ;
+}
+
+#root section{
+    @apply bg-gradient-to-l from-white to-yellow-500 w-full h-80 
+}
+
+
+
+#root > div.pt-10.bg-gradient-to-l.from-white.to-teal-400 > div.flex.flex-col.md\:flex-row.justify-evenly.pl-20.md\:pl-\[5rem\].pt-11 > div:nth-child(3):hover > p {
+    @apply group-hover:block; /* Show on hover */
+}
+
+
