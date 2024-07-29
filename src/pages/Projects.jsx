@@ -5,8 +5,8 @@ import rf from '../assets/sRF.jpg';
 
 function Projects() {
   return (
-    <div className=' pt-12 bottom-0  bg-gradient-to-l from-white to-teal-400 ' id='project'>
-        <div className=' text-2xl w-28 font-semibold  md:text-4xl md:text-center md:w-52 border-b-4 border-yellow-500 font-logodis'>Projects</div>
+    <div className='pl-5 pt-12 bottom-0  bg-gradient-to-l from-white to-teal-400 ' id='project'>
+        <div className=' text-2xl w-24 font-semibold  md:text-4xl md:text-center md:w-52 border-b-4 border-yellow-500 font-logodis'>Projects</div>
         <div className='flex flex-col md:flex-row justify-evenly pl-16 md:pl-[4rem] pt-11 text-white  '>
             <div className='md:top-0 md:w-[18rem] md:pb-16 flex flex-col  md:flex-col pl-2 relative group' >
                 <img src={rf} alt="Movie database"className='size-[13rem] md:size-[17rem] object-cover object-left rounded-2xl ' ></img>
