@@ -10,7 +10,7 @@ function Header() {
     }
 
   return (
-    <header className='rounded-xl '>
+    <header >
         <div className='flex justify-between font-bold text-lg text-purple-50 pt-2  ' >
             <div className='text-3xl pl-6 pt-0.5 font-logodis '> PortFolio</div>
             <nav className='hidden md:block '>
