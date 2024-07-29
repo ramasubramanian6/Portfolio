@@ -3,7 +3,7 @@ import myself from '../assets/myphoto-removebg-preview.png';
 
 function About() {
   return (
-    <div className='flex md:flex-row-reverse flex-col bg-gradient-to-r from-white to to-blue-500 '>
+    <div className='flex md:flex-row-reverse flex-col bg-gradient-to-r from-white to to-blue-500 ' id='about'  >
       <div className='pt-12 pr-16 text-left '>
         <div className='text-xl w-16 md:text-5xl md:text-center md:w-36 border-b-4 border-yellow-500'>About</div>
           <div className='pt-4 w-full text-sm md:text-[18px] font-logodis'>

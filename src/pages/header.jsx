@@ -10,15 +10,16 @@ function Header() {
     }
 
   return (
-    <header className='rounded-xl'>
+    <header className='rounded-xl '>
         <div className='flex justify-between font-bold text-lg text-purple-50 pt-2  ' >
-            <div className='text-3xl pl-7 pt-0.5 font-logodis '> PortFolio</div>
-            <nav className='hidden md:block'>
+            <div className='text-3xl pl-6 pt-0.5 font-logodis '> PortFolio</div>
+            <nav className='hidden md:block '>
                 <ul className='flex pt-1 pl-4 '>
-                    <li>Homepage</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
-                    <li>About</li>
+                    <li><a href="#home" className='hover:text-fuchsia-500'> Homepage</a></li>
+                    <li><a href='#project' className='hover:text-fuchsia-500'>Projects</a></li>
+                    <li><a href='#Resume' className='hover:text-fuchsia-500'>Resume</a></li>
+                    <li><a href='#about' className='hover:text-fuchsia-500'>About</a></li>
+                    <li><a href='#contact' className='hover:text-fuchsia-500'>Contact us</a></li>
                 </ul>
             </nav>
             
@@ -26,10 +27,11 @@ function Header() {
             
             {menu && <nav className='block md:hidden menu'>
                 <ul className='text-white'>
-                    <li>Homepage</li>
-                    <li>Projects</li>
-                    <li>Resume</li>
-                    <li>About</li>
+                <li onClick={MenuHandler}><a href="#/"> Homepage</a></li>
+                    <li onClick={MenuHandler}><a href='#project'>Projects</a></li>
+                    <li onClick={MenuHandler}><a href='#resume'>Resume</a></li>
+                    <li onClick={MenuHandler}><a href='#about'>About</a></li>
+                    <li onClick={MenuHandler}><a href='#contact'>Contact us</a></li>
                 </ul>
             </nav>}
         

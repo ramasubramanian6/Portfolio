@@ -8,18 +8,18 @@ import { FaGithubSquare } from "react-icons/fa";
 
 function Home() {
   return (
-    <section className="flex justify-between pt-10 md:pt-20  font-namedis rounded-md">
+    <section className="flex justify-between pt-10 md:pt-20  font-namedis rounded-md" id='home'>
      
-    <div className='text-3xl  md:text-5xl sm:text-5xl pl-3  text-black md: text-blue-50'>
-        <div className=''>I'm Rama Subramanian</div>
-        <div className='pt-8 pl-14 md:pl-20 '>Full Stack <span className= 'text-blue-500'>Developer</span></div>
-        <div className="flex space-x-8 pt-10 md:pl-56 pl-28">
+    <div className='text-3xl  md:text-5xl sm:text-5xl pl-1  text-black md: text-blue-50'>
+        <div className='md:pl-11'>I'm Rama <span className='text-blue-500'>Subramanian</span></div>
+        <div className='pt-8 pl-18 md:pl-32 '>Full Stack <span className= 'text-blue-500'>Developer</span></div>
+        <div className="flex space-x-8 pt-10 md:pt-7 md:pl-56 pl-20">
 
                 <a href='https://www.linkedin.com/in/ramasubramanian6/' target='_blank'>
-                <FaLinkedin className=' hover:bg-blue-800 size-10 rounded'></FaLinkedin></a>
+                <FaLinkedin className=' bg-blue-800 hover:bg-black size-10 rounded'></FaLinkedin></a>
 
                 <a href='https://github.com/ramasubramanian6' target='_blank'>
-                <FaGithubSquare className=' hover:bg-black size-10 rounded' ></FaGithubSquare></a>
+                <FaGithubSquare className='bg-orange-600  hover:bg-black size-10 rounded' ></FaGithubSquare></a>
       </div>
        
         
