@@ -1,8 +1,7 @@
 import React from 'react';
-import logo from '../assets/download-removebg-preview.png'
+import logo from '../assets/agenda_514776.png'
 import { FaFileDownload, FaFile  } from "react-icons/fa";
 import { CgPlayButtonO } from "react-icons/cg";
-import { GrFormView,GrFormViewHide } from "react-icons/gr";
 
 
 
@@ -20,8 +19,8 @@ function Resume() {
             <div className='md:pt-[2.1rem]'><button  className='flex pl-3  font-medium md:text-[25px] text-blue-600 '> <a href='https://drive.google.com/uc?export=download&id=15OKwiL-cDtSfJOoctUmIYuFvsgjFuojD' className='flex hover:text-purple-700  underline' download>Download <FaFileDownload className=' pl-1'/> </a></button></div>
           </div>
       </div>
-          <div>
-            <img src={logo} alt='Resume Logo'className='pt-5 pl-11 md:pt-16 md:pr-[6rem] ' ></img>
+          <div className='md:w-96  flex md:justify-center justify-end'>
+            <img src={logo} alt='Resume Logo'className=' pb-2 pr-6 size-[8rem] md:size-[18rem] md:pt-11 md:pr-[4rem] ' ></img>
           </div>
     </div>
   )
