@@ -19,7 +19,7 @@ function Header() {
                     <li><a href='#project' className='hover:text-fuchsia-500'>Projects</a></li>
                     <li><a href='#Resume' className='hover:text-fuchsia-500'>Resume</a></li>
                     <li><a href='#about' className='hover:text-fuchsia-500'>About</a></li>
-                    <li><a href='#contact' className='hover:text-fuchsia-500'>Contact us</a></li>
+                    <li><a href='#contact' className='hover:text-fuchsia-500'>Contact</a></li>
                 </ul>
             </nav>
             
