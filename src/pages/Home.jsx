@@ -11,7 +11,7 @@ function Home() {
     <section className="flex justify-center md:justify-between pt-10 md:pt-20  font-namedis " id='home'>
      
     <div className='text-3xl  md:text-5xl sm:text-5xl pl-1  text-black md: text-blue-50'>
-        <div className='md:pl-11'>I'm Rama <span className='text-blue-500'>Subramanian</span></div>
+        <div className='md:pl-11'>I'm <span className='text-blue-500'>Rama </span> Subramanian</div>
         <div className='pt-8 pl-18 md:pl-32 '>Full Stack <span className= 'text-blue-500'>Developer</span></div>
         <div className="flex space-x-8 pt-10 md:pt-7 md:pl-56 pl-20">
 
