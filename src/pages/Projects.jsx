@@ -5,7 +5,7 @@ import rf from '../assets/sRF.jpg';
 
 function Projects() {
   return (
-    <div className='pl-5 pt-12 bottom-0  bg-gradient-to-r from-gray-600   to-white ' id='project'>
+    <div className='pl-5 pt-12 bottom-0  bg-gradient-to-r white from-pink-500  to-white ' id='project'>
         <div className=' text-white text-2xl w-24 font-semibold  md:text-4xl md:text-center md:w-52 border-b-4 border-yellow-500 font-logodis'>Projects</div>
         <div className='flex flex-col md:flex-row justify-evenly pl-16 md:pl-[4rem] pt-11 text-white  '>
             <div className='md:top-0 md:w-[18rem] md:pb-16 flex flex-col  md:flex-col pl-2 relative group' >

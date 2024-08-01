@@ -22,7 +22,7 @@ header ul li {
 }
 
 #root header {
-    @apply bg-slate-700 h-14 ;
+    @apply bg-slate-600 h-14 ;
 }
 
 .menu{
@@ -35,7 +35,7 @@ header ul li {
 }
 
 #root section{
-    @apply bg-gradient-to-l from-white to-gray-600 w-full h-80 
+    @apply bg-gradient-to-l from-white to-yellow-500 w-full h-80 
 }
 
 
