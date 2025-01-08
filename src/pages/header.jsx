@@ -10,10 +10,10 @@ function Header() {
     }
 
   return (
-    <header >
-        <div className='flex justify-between font-bold text-lg text-purple-50 pt-2  ' >
-            <div className='text-3xl pl-6 pt-0.5 font-logodis '> PortFolio</div>
-            <nav className='hidden md:block '>
+    <header  >
+        <div className='bg-black flex justify-between font-bold text-lg text-purple-50 pt-2  ' >
+            <div className=' text-3xl pl-6 pt-1 font-logodis '> PortFolio</div>
+            <nav className='hidden md:block  '>
                 <ul className='flex pt-1 pl-4 '>
                     <li><a href="#home" className='hover:text-fuchsia-500'> Homepage</a></li>
                     <li><a href='#project' className='hover:text-fuchsia-500'>Projects</a></li>
@@ -23,10 +23,10 @@ function Header() {
                 </ul>
             </nav>
             
-            <button onClick={MenuHandler} className='md:hidden block pr-3' ><Bars3Icon className='h-7 text-white'/></button>
+            <button onClick={MenuHandler} className='md:hidden block pr-3 bg-black' ><Bars3Icon className='h-7 text-white'/></button>
             
-            {menu && <nav className='block md:hidden menu'>
-                <ul className='text-white'>
+            {menu && <nav className='block md:hidden menu 'style={{ marginTop: '-40px' }}>
+                <ul className='text-white pl-2 pt-3'>
                 <li onClick={MenuHandler}><a href="#/"> Homepage</a></li>
                     <li onClick={MenuHandler}><a href='#project'>Projects</a></li>
                     <li onClick={MenuHandler}><a href='#resume'>Resume</a></li>
