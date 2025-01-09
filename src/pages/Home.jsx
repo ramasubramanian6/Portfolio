@@ -8,7 +8,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 function Home() {
   return (
-    <section className="flex justify-center md:justify-between pt-10 md:pt-20  font-namedis " id='home'>
+    <section className=" flex justify-center md:justify-between pt-10 md:pt-20  font-namedis " id='home'>
      
     <div className='text-3xl  md:text-5xl sm:text-5xl pl-1  text-black md: text-blue-50'>
         <div className='md:pl-11'>I'm <span className='text-blue-500'>Rama </span> Subramanian</div>
