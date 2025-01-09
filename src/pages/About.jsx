@@ -15,7 +15,7 @@ function About() {
           </div>
       </div>
           <div>
-            <img src={myself} alt='Rama Subramanian'className='ml-1 h-full size-[27rem]' ></img>
+            <img src={myself} alt='Rama Subramanian'className='ml-1 h-full size-[27rem] object-cover' ></img>
           </div>
     </div>
   )
