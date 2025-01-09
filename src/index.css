@@ -45,3 +45,7 @@ header ul li {
 }
 
 
+
+.underline-yellow-500 {
+    text-decoration-color: #ecc94b; /* Tailwind's yellow-500 color */
+  }

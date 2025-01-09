@@ -5,7 +5,7 @@ import { FaGithubSquare } from "react-icons/fa";
 function Contact() {
   return (
     <div className='md:h-[19rem] bg-[#343434] text-white flex flex-col' id='contact'>
-    <div className='text-5xl font-namedis pt-5' >Contact</div>
+    <div className='text-5xl font-namedis pt-5  text-center  ' >Contact</div>
     <div className='md:pt-10 pt-5 flex-col  md:flex-row align-middle'>
         <div className='md:text-2xl  font-logodis md:pl-[5rem]'>Email:<a href='mailto:ramasubramanianponni37@gmail.com' className='pl-2 underline hover:text-blue-400'>ramasubramanianponni37@gmail.com</a></div>
         <div className='md:text-2xl pt-4 font-logodis md:pl-[3rem]' >Phone no:<a href='tel:+91 7449085120' className='pl-2 underline hover:text-blue-400'>+91 7449085120</a>  </div>
